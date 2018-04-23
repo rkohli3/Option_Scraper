@@ -1,4 +1,4 @@
-#NASDAQ and Barchart Options chain Scraper
+# NASDAQ and Barchart Options chain Scraper
 
 The modules in the following repo contain python scripts for scraping options data from
 NASDAQ and Barchart sites. Both, NASDAQ and Barchart provide real time data, but do not come without any trade offs.
@@ -7,20 +7,20 @@ NASDAQ and Barchart sites. Both, NASDAQ and Barchart provide real time data, but
 <br>
 <br>
 
-##Summary
+## Summary
 <br>
-###Barchart
+### Barchart
 
 Barchart uses Ajax, ie it loads all data whenever the site is requested. Therefore, if there are multiple pages to get data from,
 one does not have to `request` for those multiple pages each time. However, Barchart has some missing data, which you may/may not
 get from NASDAQ.
 
-###NASDAQ
+### NASDAQ
 <p>
 Unlike Barchart, NASDAQ pages need to be called each time. For eg. if AMZN has multiple pages for its Options chain, then each pages
 needs to be called separately. This implies, too mnay request hits.
 
-##Implementation and dependencies
+## Implementation and dependencies
 
 The modules use BeautifulSoup from bs4 module. Very powerful tool for web scraping. To install the dependencies, type the following
 commands in terminal
