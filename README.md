@@ -10,10 +10,15 @@ NASDAQ and Barchart sites. Both, NASDAQ and Barchart provide real time data, but
 ## Summary
 
 ### Barchart
-<p>
+<br>
+
+
+
 Barchart uses Ajax, ie it loads all data whenever the site is requested. Therefore, if there are multiple pages to get data from,
 one does not have to `request` for those multiple pages each time. However, Barchart has some missing data, which you may/may not
 get from NASDAQ.
+  
+
 
 ### NASDAQ
 <p>
